@@ -51,3 +51,18 @@ body {
 html {
   scroll-behavior: smooth;
 }
+@keyframes flotar {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100vh); /* Mueve la estrella hacia arriba */
+    opacity: 0; /* Desaparece al final del movimiento */
+  }
+}
+
+.estrella {
+  position: absolute;
+  animation: flotar infinite;
+}

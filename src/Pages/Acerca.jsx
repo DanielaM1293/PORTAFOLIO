@@ -86,14 +86,14 @@ export const Acerca = () => {
             className="bg-purple-600 text-white py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-transform transform hover:scale-110 duration-300">
             LinkedIn
           </a>
-          <a href="https://github.com/tu-github" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/DanielaM1293" target="_blank" rel="noopener noreferrer"
             className="bg-purple-600 text-white py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-transform transform hover:scale-110 duration-300">
             GitHub
           </a>
         </div>
       </div>
       <Burbujas />
-      <div className="relative z-10">
+      <div className="relative z-20">
         </div> {/* Agrega z-10 para que el contenido esté por encima de las burbujas */}
     </div>
    
