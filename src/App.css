@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* En index.css o App.css */
+body {
+    @apply bg-black text-white;
+  }
+  .perspective {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotateY-180 {
+    transform: rotateY(180deg);
+  }
+  .bg-gray-900 {
+    background-color: #1a202c; /* Color oscuro */
+  }
+  
+  .text-white {
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  .bg-white {
+    background-color: #ffffff; /* Color claro */
+  }
+  
+  .text-black {
+    color: #000000; /* Texto negro */
+  }
+  
