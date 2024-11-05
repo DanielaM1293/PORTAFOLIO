@@ -31,4 +31,23 @@ body {
   .text-black {
     color: #000000; /* Texto negro */
   }
-  
+  /* styles.css */
+.bubble {
+  position: absolute;
+  bottom: -50px; /* Para que comiencen desde abajo */
+  animation-name: float;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh); /* Se eleva por toda la altura de la ventana */
+  }
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,7 +1,9 @@
 import React from "react";
+import Burbujas from "../components/Burbujas";
 
 export const Servicios = () => {
   return (
+    <>
     <div className="min-h-screen bg-black text-white p-6">
       <h1 className="text-5xl font-bold text-purple-500 text-center mb-8 mt-12">
         Mis Servicios
@@ -45,7 +47,12 @@ export const Servicios = () => {
           </div>
         ))}
       </div>
+     
     </div>
+    <Burbujas />
+      <div className="relative z-10">
+        </div> 
+    </>
   );
 };
 
